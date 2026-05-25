@@ -1,16 +1,63 @@
-# intern_1
+````md id="lv2z7m"
+# Flutter Login App
 
-A new Flutter project.
+A simple Flutter application with:
 
-## Getting Started
+- Login Screen
+- Email Validation
+- Password Validation
+- Navigation to Home Screen
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- User-friendly UI
+- Form validation using TextFormField
+- Email format checking
+- Password empty check
+- Screen navigation using Navigator.push()
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+
+## Project Structure
+
+lib/
+├── main.dart
+├── login_screen.dart
+└── home_screen.dart
+
+
+## How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/flutter-login-app.git
+````
+
+2. Open project
+
+```bash
+cd flutter-login-app
+```
+
+3. Get dependencies
+
+```bash
+flutter pub get
+```
+
+4. Run the app
+
+```bash
+flutter run
+```
+
+## Author
+
+Musab Iftikhar
+
+```
+```
